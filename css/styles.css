@@ -75,6 +75,17 @@ button {
   padding-top: 25px;
   padding-bottom: 32px;
 }
+
+.header .container {
+  display: flex;
+  align-items: center;
+}
+
+.header .logo {
+  padding-top: 24px;
+  padding-bottom: 25px;
+  margin-right: 93px;
+}
 .logo {
   font-family: "Raleway";
   font-weight: 700;
@@ -82,6 +93,8 @@ button {
   line-height: 1.19;
   color: #2196f3;
   text-decoration: none;
+
+  width: 145px;
 }
 
 .logo .title {
@@ -101,7 +114,22 @@ button {
 }
 
 /*-------------------------- навигация---------------------- */
-.site-nav .link {
+.header-navigation {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  display: block;
+}
+
+.header-list {
+  display: flex;
+  margin-right: 331px;
+}
+
+.header-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.header-list .link {
   color: var(--title-text-color);
 
   font-weight: 500;
@@ -111,16 +139,35 @@ button {
   text-decoration: none;
 }
 
-.site-nav .link:hover,
-.site-nav .link:focus {
+.header-list .link:hover,
+.header-list .link:focus {
   color: var(--accent-color);
 }
 
-.site-nav .link.current {
+.header-list .link.current {
   color: var(--accent-color);
 }
 
-.auth-nav .link {
+.mailto .list {
+  display: flex;
+}
+
+.mailto-item {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+  display: flex;
+}
+
+.mailto-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.mailto .link {
   color: var(--primary-text-color);
 
   font-weight: 500;
@@ -130,8 +177,8 @@ button {
   text-decoration: none;
 }
 
-.auth-nav .link:hover,
-.auth-nav .link:focus {
+.mailto .link:hover,
+.mailto .link:focus {
   color: var(--accent-color);
 }
 
@@ -165,8 +212,17 @@ button {
 /* ----------------------Приоритеты---------------------- -*/
 
 .section-priority {
-  padding-top: 67px;
+  padding-top: 94px;
   padding-bottom: 94px;
+  margin: 0 auto;
+}
+
+.priority {
+  display: flex;
+}
+
+.priority-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 /* ---------------------Чем мы занимаемся----------------- */
@@ -174,6 +230,16 @@ button {
 .section-job {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+
+.job {
+  display: flex;
+  justify-content: center;
+}
+
+.job-item-second {
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 /* ----------------------Заголовки------------------------- */
@@ -203,6 +269,20 @@ button {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+
+.comands {
+  display: flex;
+  justify-content: center;
+  margin-left: -30px;
+}
+
+.comands-item {
+  flex-basis: calc((100% -120px) / 4);
+  margin-left: 30px;
+}
+/* .comands-item:not(:last-child) {
+  margin-right: 30px;
+} */
 
 .caption {
   font-weight: 500;
@@ -263,11 +343,18 @@ button {
   padding-bottom: 94px;
 }
 
-.filters-list .list {
+.filters-list {
+  display: flex;
+  justify-content: center;
 }
 
 .filters-button {
   margin-bottom: 34px;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
 }
 
 .about-work {
