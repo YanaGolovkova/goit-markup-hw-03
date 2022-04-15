@@ -74,7 +74,7 @@ button {
 .header {
   padding-top: 25px;
   padding-bottom: 32px;
-  border-bottom: 1px solid #000000;
+  border-bottom: 1px solid #eeeeee;
 }
 
 .header .container {
@@ -207,6 +207,9 @@ button {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
+  width: 200px;
+  height: 50px;
+  margin-top: 30px;
 }
 
 /* ----------------------Приоритеты---------------------- -*/
@@ -281,8 +284,14 @@ button {
   margin-left: 30px;
   width: 270px;
   height: 368px;
-  border: 1px solid #000000;
+  border: 1px solid #eeeeee;
 }
+
+/* .comands-name {
+  width: 270px;
+  height: 108px;
+  border: 1px solid #eeeeee;
+} */
 
 .caption {
   font-weight: 500;
@@ -371,7 +380,11 @@ button {
   margin-bottom: 30px;
   width: 370px;
   height: 404px;
-  border: 1px solid #000000;
+}
+
+.title-work {
+  padding: 20px 24px;
+  border: 1px solid #eeeeee;
 }
 
 .about-work {
