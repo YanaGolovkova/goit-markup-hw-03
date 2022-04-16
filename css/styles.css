@@ -73,7 +73,7 @@ button {
 
 .header {
   padding-top: 25px;
-  padding-bottom: 32px;
+  padding-bottom: 25px;
   border-bottom: 1px solid #eeeeee;
 }
 
@@ -83,10 +83,9 @@ button {
 }
 
 .header .logo {
-  padding-top: 24px;
-  padding-bottom: 25px;
   margin-right: 93px;
 }
+
 .logo {
   font-family: "Raleway";
   font-weight: 700;
@@ -115,8 +114,6 @@ button {
 
 /*----------------------- навигация---------------------- */
 .header-navigation {
-  padding-top: 32px;
-  padding-bottom: 32px;
   display: block;
 }
 
@@ -185,7 +182,7 @@ button {
 /* -------------------------Герой------------------------------ */
 .hero {
   padding-top: 200px;
-  padding-bottom: 280px;
+  padding-bottom: 200px;
   text-align: center;
   background-color: var(--title-text-color);
 }
@@ -231,7 +228,6 @@ button {
 /* ---------------------Чем мы занимаемся----------------- */
 
 .section-job {
-  padding-top: 94px;
   padding-bottom: 94px;
 }
 
@@ -264,9 +260,6 @@ button {
 
 /*---------------------- Наша команда------------------- */
 
-.comand-img {
-  margin-bottom: 30px;
-}
 .section-comands {
   background-color: #f5f4fa;
   padding-top: 94px;
@@ -287,26 +280,22 @@ button {
   border: 1px solid #eeeeee;
 }
 
-/* .comands-name {
-  width: 270px;
-  height: 108px;
-  border: 1px solid #eeeeee;
-} */
+.comands-name {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
 
 .caption {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  text-align: center;
-  margin-bottom: 10px;
 }
 
 .avatar {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
-  text-align: center;
-  margin-bottom: 30px;
 }
 
 /* ------------------------About--------------------------- */
@@ -323,19 +312,13 @@ button {
   line-height: 1.62;
 }
 
-/* .buttons {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-} */
-
 .button.primari {
   font-weight: 500;
   color: var(--primary-white-color);
   background-color: var(--accent-color);
   cursor: pointer;
+  box-sizing: border-box;
+  padding: 6px 22px;
 }
 
 .button.secondary {
@@ -343,6 +326,8 @@ button {
   color: var(--title-text-color);
   background-color: var(--primary-white-color);
   cursor: pointer;
+  box-sizing: border-box;
+  padding: 6px 22px;
 }
 
 /* --------------------------Наши работы------------------ */
@@ -442,6 +427,7 @@ button {
   line-height: 1.71;
   color: var(--primary-white-color);
   text-decoration: none;
+
   margin-bottom: 9px;
 }
 
