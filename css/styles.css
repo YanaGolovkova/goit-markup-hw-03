@@ -94,6 +94,7 @@ button {
   color: #2196f3;
   text-decoration: none;
   width: 145px;
+  height: 31px;
 }
 
 .logo .title {
@@ -393,11 +394,17 @@ button {
   background: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
+  display: block;
+}
+
+.footer-navigation {
+  display: block;
 }
 
 .address {
   width: 231px;
   height: 81px;
+  margin-top: 20px;
 }
 
 .footer .address {
@@ -415,10 +422,6 @@ button {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer .logo {
-  margin-bottom: 20px;
-}
-
 .navi {
   font-family: "Roboto";
   font-style: normal;
@@ -427,7 +430,6 @@ button {
   line-height: 1.71;
   color: var(--primary-white-color);
   text-decoration: none;
-
   margin-bottom: 9px;
 }
 
@@ -441,6 +443,7 @@ button {
   text-decoration: none;
 }
 
-.list .navi-net:not(:last-child) {
+.navi-item:not(:last-child) {
+  margin-top: 9px;
   margin-bottom: 9px;
 }
