@@ -314,6 +314,10 @@ button {
   justify-content: center;
 }
 
+.comands-soc-item + .comands-soc-item {
+  margin-left: 10px;
+}
+
 .comands-soc-link {
   width: 44px;
   height: 44px;
@@ -322,14 +326,18 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.comands-soc-item + .comands-soc-item {
-  margin-left: 10px;
+  color: #afb1b8;
 }
 
-/* .comands-soc-icon {
-  fill: #ffffff;
-} */
+.comands-soc-icon {
+  fill: currentColor;
+}
+
+.comands-soc-link:hover,
+.comands-soc-link:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+}
 
 /* ------------------------About--------------------------- */
 
